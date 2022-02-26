@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 ARGUMENT_LIST=(
   "input_folder"
@@ -50,9 +50,8 @@ done
 mkdir -p $backup_folder
 find "$input_folder" -name "*.$extension" -print0 | 
 while IFS= read -r -d '' file; do
-    cp "$file" "$backup_folder";
+    cp "$file" "$backup_folder"
 done 
 
-tar czf "$backup_archive_name" "$backup_folder";
-
-echo "done";
+tar czf "$backup_archive_name" "$backup_folder"
+echo "done"
