@@ -54,4 +54,5 @@ while IFS= read -r -d '' file; do
 done 
 
 tar czf "$backup_archive_name" "$backup_folder";
+
 echo "done";
