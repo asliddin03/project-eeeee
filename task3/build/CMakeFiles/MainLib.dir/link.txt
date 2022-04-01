@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/MainLib.dir/main_lib.cpp.o  -o ../bin/MainLib  -Wl,-rpath,/home/asliddin/Desktop/git/project-eeeee/task3/lib: ../lib/libbuffer.so 
