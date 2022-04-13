@@ -14,7 +14,7 @@ include_directories(${MyProject_SOURCE_DIR}/A)
 add_subdirectory(${MyProject_SOURCE_DIR}/B ${MyProject_SOURCE_DIR}/lib)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_executable(C C/main.cpp)
+add_executable(C ${CMAKE_SOURCE_DIR}/C/main.cpp)
 target_link_libraries(C Blib) 
 target_include_directories(C PUBLIC ${CMAKE_CURRENT_LIST_DIR})
 
