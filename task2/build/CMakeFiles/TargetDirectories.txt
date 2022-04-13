@@ -1,0 +1,7 @@
+/home/asliddin/Desktop/git/project-eeeee/task2/build/CMakeFiles/rebuild_cache.dir
+/home/asliddin/Desktop/git/project-eeeee/task2/build/CMakeFiles/edit_cache.dir
+/home/asliddin/Desktop/git/project-eeeee/task2/build/CMakeFiles/CTest.dir
+/home/asliddin/Desktop/git/project-eeeee/task2/build/CMakeFiles/C.dir
+/home/asliddin/Desktop/git/project-eeeee/task2/lib/CMakeFiles/rebuild_cache.dir
+/home/asliddin/Desktop/git/project-eeeee/task2/lib/CMakeFiles/edit_cache.dir
+/home/asliddin/Desktop/git/project-eeeee/task2/lib/CMakeFiles/Blib.dir
