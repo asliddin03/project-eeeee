@@ -23,8 +23,12 @@ def test1():
 
     a = cl.get('src', True)
     assert FileNode('src', True, []) != a
-    node = cl.filter_empty_nodes(FileNode('trash', False, []))
-    assert None == node
+    trash2 = FileNode('trash1/trash2', True, [])
+    trash1 =FileNode('trash1', True, [trash2])
+    assert None == cl.filter_empty_nodes(trash1)
+
+    trash =FileNode('trash', False, [])
+    assert None == cl.filter_empty_nodes(trash)
 
 #def test2():
 #    answer = FileNode(
