@@ -1,0 +1,1 @@
+inline int sum2_2(){ return 4; }
