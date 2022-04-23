@@ -6,5 +6,9 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
+<<<<<<< HEAD
 CXX_INCLUDES = -I/home/asliddin/Desktop/git/project-eeeee/task2 
+=======
+CXX_INCLUDES = -I/home/asliddin/Desktop/git/project-eeeee/task2/A -I/home/asliddin/Desktop/git/project-eeeee/task2 
+>>>>>>> dc9d90b64b56f1f6b8ad7d7bb0fd6d26fb140092
 

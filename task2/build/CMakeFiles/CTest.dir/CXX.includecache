@@ -6,3 +6,16 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+=======
+../B/lib.h
+
+/home/asliddin/Desktop/git/project-eeeee/task2/C/main_test.cpp
+gtest/gtest.h
+-
+A/index.h
+/home/asliddin/Desktop/git/project-eeeee/task2/C/A/index.h
+B/lib.h
+/home/asliddin/Desktop/git/project-eeeee/task2/C/B/lib.h
+
+>>>>>>> dc9d90b64b56f1f6b8ad7d7bb0fd6d26fb140092
