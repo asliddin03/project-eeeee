@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../B/lib.h
+
+/home/asliddin/Desktop/git/project-eeeee/task2/C/main_test.cpp
+gtest/gtest.h
+-
+A/index.h
+/home/asliddin/Desktop/git/project-eeeee/task2/C/A/index.h
+B/lib.h
+/home/asliddin/Desktop/git/project-eeeee/task2/C/B/lib.h
+
