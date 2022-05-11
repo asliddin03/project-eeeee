@@ -6,6 +6,7 @@ import shutil
 
 
 cl = Tree()
+asl = cl
 
 def test1():
     with pytest.raises(AttributeError):
