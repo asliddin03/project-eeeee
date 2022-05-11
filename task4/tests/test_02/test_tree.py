@@ -32,15 +32,3 @@ def test1():
     trash2 = FileNode('trash2', True, [])
     trash1 =FileNode('trash1', True, [trash2])
     assert None == cl.filter_empty_nodes(trash1)
-
-#def test2():
-#    answer = FileNode(
-#        'test_02',
-#        is_dir=True,
-#        children=[]
-#    )
-    
-
-    
-   # assert answer != cl.get('/tests/test_02', True, True)
-
