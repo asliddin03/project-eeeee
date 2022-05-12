@@ -6,6 +6,7 @@ import shutil
 
 
 cl = Tree()
+asl = cl
 
 def test1():
     with pytest.raises(AttributeError):
@@ -27,20 +28,9 @@ def test1():
     trash =FileNode('trash', False, [])
     assert None == cl.filter_empty_nodes(trash)
 
+    os.mkdir('trash1')
     os.chdir('trash1')
     os.mkdir('trash2')
     trash2 = FileNode('trash2', True, [])
     trash1 =FileNode('trash1', True, [trash2])
     assert None == cl.filter_empty_nodes(trash1)
-
-#def test2():
-#    answer = FileNode(
-#        'test_02',
-#        is_dir=True,
-#        children=[]
-#    )
-    
-
-    
-   # assert answer != cl.get('/tests/test_02', True, True)
-
