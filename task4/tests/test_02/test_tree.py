@@ -28,6 +28,7 @@ def test1():
     trash =FileNode('trash', False, [])
     assert None == cl.filter_empty_nodes(trash)
 
+    os.mkdir('trash1')
     os.chdir('trash1')
     os.mkdir('trash2')
     trash2 = FileNode('trash2', True, [])
